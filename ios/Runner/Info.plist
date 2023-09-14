@@ -45,5 +45,13 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>App needs Camera.</string>	
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>App needs photo lib.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>App needs photo lib.</string>	
+	<key>NSFaceIDUsageDescription</key>
+	<string>App needs FaceId.</string>	
 </dict>
 </plist>
