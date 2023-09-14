@@ -104,12 +104,6 @@ class _MyHomePageState extends State<MyHomePage> {
           );
         },
       ),
-
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 
@@ -130,15 +124,10 @@ class _MyHomePageState extends State<MyHomePage> {
       // Center is a layout widget. It takes a single child and positions it
       // in the middle of the parent.
       child: ElevatedButton(
-        style: ButtonStyle(
-          shape: MaterialStateProperty.all<RoundedRectangleBorder>(const RoundedRectangleBorder(
-            borderRadius: BorderRadius.only(topRight: Radius.circular(18.0), bottomRight: Radius.circular(18.0)),
-          )),
-        ),
         onPressed: () {
           Navigator.of(context).pushNamed(SecondPage.routeName);
         },
-        child: const Icon(Icons.camera_alt),
+        child: const Text('Take picture page'),
       ),
     );
   }
